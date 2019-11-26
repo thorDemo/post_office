@@ -61,8 +61,8 @@ class SMTPSocket:
             if code != 250:
                 return code, msg
             message = bytes(message, encoding='utf-8')
-            status, code, msg = self.send_data(message)
-            return status, code, msg
+            code, msg = self.send_data(message)
+            return code, msg
         except SMTPException as e:
             return 0, e
         except TimeoutError:
@@ -166,13 +166,13 @@ class SMTPSocket:
             code, msg = self.get_reply()
             if code == 250:
                 self.socket_close()
-                return True, code, msg
+                return code, msg
             else:
                 self.socket_close()
-                return False, code, msg
+                return code, msg
         else:
             self.socket_close()
-            return False, code, msg
+            return code, msg
 
     def socket_close(self):
         request = f'QUIT{CRLF}'

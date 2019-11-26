@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 from flask import Flask, request, jsonify, Response
 from mylib.smtp_socket import SMTPSocket
+from mylib.real_ip import real_ip
 import os
 import json
 
@@ -24,7 +25,7 @@ def post_email():
         receivers = data['receivers']
         message = data['message']
         service = SMTPSocket()
-        status, code, msg = service.send_mail(sender, receivers, message)
+        code, msg = service.send_mail(sender, receivers, message)
         result = {
             'code': code,
             'msg': msg
@@ -38,7 +39,7 @@ def post_email():
 
 if __name__ == '__main__':
     app.run(
-        host='127.0.0.1',
+        host=real_ip(),
         port=5000,
         debug=True
     )
