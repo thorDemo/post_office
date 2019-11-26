@@ -64,7 +64,8 @@ class SMTPSocket:
             code, msg = self.send_data(message)
             return code, msg
         except SMTPException as e:
-            return 0, e
+            print(e)
+            return 0, 'send error'
         except TimeoutError:
             return 0, 'connect error !'
 
@@ -168,8 +169,7 @@ class SMTPSocket:
                 self.socket_close()
                 return code, msg
             else:
-                self.socket_close()
-                return code, msg
+                return code, str(msg)
         else:
             self.socket_close()
             return code, msg
@@ -211,7 +211,6 @@ class SMTPSocket:
                         message = ' '.join(temp_data[1:8])
                         code = temp_data[0]
                         return int(code), message
-            print(data)
             raise SMTPReplyError
         else:
             raise SMTPReplyError

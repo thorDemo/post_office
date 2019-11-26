@@ -3,9 +3,11 @@
     <words>
       <w>crlf</w>
       <w>dkim</w>
+      <w>ehlo</w>
       <w>helo</w>
       <w>nohup</w>
       <w>rsaky</w>
+      <w>sohu</w>
     </words>
   </dictionary>
 </component>
