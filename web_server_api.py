@@ -2,6 +2,7 @@
 from flask import Flask, request, jsonify, Response
 from mylib.smtp_socket import SMTPSocket
 from mylib.real_ip import real_ip
+from mylib.code_logging import Logger
 import os
 import json
 
@@ -30,6 +31,8 @@ def post_email():
             'code': code,
             'msg': msg
         }
+        logging = Logger('send_email.log').get_log()
+        logging.info(f'{receivers} {code} {msg}')
         return jsonify(result)
     else:
         content = json.dumps({"error_code": "1001"})
