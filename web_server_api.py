@@ -6,6 +6,7 @@ from mylib.code_logging import Logger
 import os
 import json
 
+logging = Logger('send_email.log').get_log()
 
 # Flask对象
 app = Flask(__name__)
@@ -26,12 +27,12 @@ def post_email():
         receivers = data['receivers']
         message = data['message']
         service = SMTPSocket()
+        service.debuglevel = 1
         code, msg = service.send_mail(sender, receivers, message)
         result = {
             'code': code,
             'msg': msg
         }
-        logging = Logger('send_email.log').get_log()
         logging.info(f'{receivers} {code} {msg}')
         return jsonify(result)
     else:

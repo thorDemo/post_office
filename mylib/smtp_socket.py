@@ -1,10 +1,6 @@
 #! /usr/bin/env python3
 import socket
 import dns.resolver
-import dkim
-from email.mime.text import MIMEText
-from logging import getLogger
-import time
 
 __all__ = ["SMTPException", "SMTPReplyError", "SMTPServerDisconnected", "SMTPSocket"]
 
