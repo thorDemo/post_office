@@ -26,7 +26,7 @@ def post_email():
         sender = data['sender']
         receivers = data['receivers']
         message = data['message']
-        service = SMTPSocket()
+        service = SMTPSocket(logging)
         service.debuglevel = 1
         code, msg = service.send_mail(sender, receivers, message)
         result = {

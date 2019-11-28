@@ -1,0 +1,306 @@
+2019-11-27 12:11:56,839 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 11:04:06,192 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:47:18,436 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:47:18,436 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:47:18,608 - mylib.code_logging - DEBUG - < 220 newxmmxsza51.qq.com MX QQ Mail Server.
+2019-11-28 14:47:18,608 - mylib.code_logging - DEBUG - < 220 newxmmxsza51.qq.com MX QQ Mail Server.
+2019-11-28 14:47:18,608 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,608 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,609 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:47:18,609 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250-newxmmxsza51.qq.com-10.62.80.19-25390360
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250-newxmmxsza51.qq.com-10.62.80.19-25390360
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:47:18,648 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:47:18,686 - mylib.code_logging - DEBUG - < 250-newxmmxsza51.qq.com
+2019-11-28 14:47:18,686 - mylib.code_logging - DEBUG - < 250-newxmmxsza51.qq.com
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:47:18,687 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:47:18,727 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:47:18,812 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:47:18,812 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:47:18,813 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,813 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,813 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:47:18,813 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:47:18,855 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:47:18,855 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:47:18,855 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:18,855 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:20,094 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:47:20,094 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:47:20,094 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:20,094 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:20,129 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:47:20,129 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:47:20,130 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:20,130 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:47:20,130 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:47:20,130 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:49:15,537 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:49:15,537 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - < 220 newxmmxszc67.qq.com MX QQ Mail Server.
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - < 220 newxmmxszc67.qq.com MX QQ Mail Server.
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:49:15,657 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250-newxmmxszc67.qq.com-100.77.8.17-2205290
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250-newxmmxszc67.qq.com-100.77.8.17-2205290
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,696 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,697 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:49:15,697 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-newxmmxszc67.qq.com
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-newxmmxszc67.qq.com
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:49:15,738 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:49:15,780 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:49:15,899 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:49:15,940 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:49:15,940 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:49:15,940 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:15,940 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:17,392 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:49:17,392 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:49:17,392 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:17,392 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:17,431 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:49:17,431 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:49:17,431 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:17,431 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:17,432 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:49:17,432 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:49:57,663 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:49:57,663 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:49:57,771 - mylib.code_logging - DEBUG - < 220 newxmmxszb60.qq.com MX QQ Mail Server.
+2019-11-28 14:49:57,771 - mylib.code_logging - DEBUG - < 220 newxmmxszb60.qq.com MX QQ Mail Server.
+2019-11-28 14:49:57,772 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,772 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,772 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:49:57,772 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:49:57,808 - mylib.code_logging - DEBUG - < 250-newxmmxszb60.qq.com-100.77.21.157-56691613
+2019-11-28 14:49:57,808 - mylib.code_logging - DEBUG - < 250-newxmmxszb60.qq.com-100.77.21.157-56691613
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:49:57,809 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-newxmmxszb60.qq.com
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-newxmmxszb60.qq.com
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:57,843 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:49:57,844 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:49:57,879 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:49:57,964 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:49:57,964 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:49:57,965 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,965 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:57,965 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:49:57,965 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:49:58,000 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:49:58,000 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:49:58,000 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:58,000 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:59,281 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:49:59,281 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:49:59,281 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:59,281 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:59,315 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:49:59,315 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:49:59,315 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:59,315 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:49:59,316 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:49:59,316 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:51:00,453 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:51:00,453 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - < 220 newxmmxsza57.qq.com MX QQ Mail Server.
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - < 220 newxmmxsza57.qq.com MX QQ Mail Server.
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:51:00,561 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:51:00,602 - mylib.code_logging - DEBUG - < 250-newxmmxsza57.qq.com-10.57.80.91-69884962
+2019-11-28 14:51:00,602 - mylib.code_logging - DEBUG - < 250-newxmmxsza57.qq.com-10.57.80.91-69884962
+2019-11-28 14:51:00,602 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:51:00,602 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:51:00,603 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:51:00,652 - mylib.code_logging - DEBUG - < 250-newxmmxsza57.qq.com
+2019-11-28 14:51:00,652 - mylib.code_logging - DEBUG - < 250-newxmmxsza57.qq.com
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,653 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,654 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:51:00,654 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:51:00,701 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:51:00,701 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:51:00,701 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,701 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,702 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:51:00,702 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:51:00,793 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:51:00,793 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:51:00,794 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,794 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,794 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:51:00,794 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:51:00,834 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:51:00,834 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:51:00,834 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:00,834 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:01,873 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:51:01,873 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:51:01,873 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:01,873 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:01,910 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:51:01,910 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:51:01,911 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:01,911 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:51:01,911 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:51:01,911 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:53:26,949 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:53:27,097 - mylib.code_logging - DEBUG - < 220 newxmmxszc55.qq.com MX QQ Mail Server.
+2019-11-28 14:53:27,097 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:27,097 - mylib.code_logging - DEBUG - > HELO mx1.qq.com
+2019-11-28 14:53:27,140 - mylib.code_logging - DEBUG - < 250-newxmmxszc55.qq.com-100.110.12.45-4694213
+2019-11-28 14:53:27,141 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:53:27,141 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:53:27,141 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:27,141 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:53:27,184 - mylib.code_logging - DEBUG - < 250-newxmmxszc55.qq.com
+2019-11-28 14:53:27,184 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:53:27,184 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:53:27,184 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:53:27,184 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:27,185 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:53:27,232 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:53:27,233 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:27,233 - mylib.code_logging - INFO - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:53:27,332 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:53:27,332 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:27,332 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:53:27,377 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:53:27,377 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:28,785 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:53:28,786 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:28,786 - mylib.code_logging - INFO - QUIT
+2019-11-28 14:53:28,832 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:53:28,832 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:53:28,832 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 14:55:31,090 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 14:55:31,201 - mylib.code_logging - DEBUG - < 220 newxmmxszb58.qq.com MX QQ Mail Server.
+2019-11-28 14:55:31,201 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:31,202 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 14:55:31,242 - mylib.code_logging - DEBUG - < 250-newxmmxszb58.qq.com
+2019-11-28 14:55:31,242 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 14:55:31,242 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 14:55:31,242 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 14:55:31,242 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:31,243 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 14:55:31,288 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 14:55:31,289 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:31,289 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 14:55:31,381 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 14:55:31,381 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:31,381 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 14:55:31,423 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 14:55:31,423 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:33,135 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 14:55:33,136 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:33,136 - mylib.code_logging - DEBUG - QUIT
+2019-11-28 14:55:33,180 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 14:55:33,180 - mylib.code_logging - DEBUG - < 
+2019-11-28 14:55:33,181 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 
+2019-11-28 15:09:45,686 - mylib.code_logging - DEBUG - dns:30mx1.qq.com.
+2019-11-28 15:09:45,686 - mylib.code_logging - DEBUG - dns:10mx3.qq.com.
+2019-11-28 15:09:45,686 - mylib.code_logging - DEBUG - dns:20mx2.qq.com.
+2019-11-28 15:09:45,686 - mylib.code_logging - DEBUG - > Connect: mx1.qq.com
+2019-11-28 15:09:45,804 - mylib.code_logging - DEBUG - < 220 newxmmxszb50.qq.com MX QQ Mail Server.
+2019-11-28 15:09:45,804 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:45,804 - mylib.code_logging - DEBUG - > EHLO bmw1984.com
+2019-11-28 15:09:45,843 - mylib.code_logging - DEBUG - < 250-newxmmxszb50.qq.com
+2019-11-28 15:09:45,843 - mylib.code_logging - DEBUG - < 250-STARTTLS
+2019-11-28 15:09:45,844 - mylib.code_logging - DEBUG - < 250-SIZE 73400320
+2019-11-28 15:09:45,844 - mylib.code_logging - DEBUG - < 250 OK
+2019-11-28 15:09:45,844 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:45,844 - mylib.code_logging - DEBUG - > MAIL FROM:<service@bmw1984.com>
+2019-11-28 15:09:45,886 - mylib.code_logging - DEBUG - < 250 OK.
+2019-11-28 15:09:45,887 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:45,887 - mylib.code_logging - DEBUG - > RCPT TO:<914081010@qq.com>
+2019-11-28 15:09:45,980 - mylib.code_logging - DEBUG - < 250 OK 1
+2019-11-28 15:09:45,980 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:45,980 - mylib.code_logging - DEBUG - > DATA string
+2019-11-28 15:09:46,023 - mylib.code_logging - DEBUG - < 354 End data with <CR><LF>.<CR><LF>.
+2019-11-28 15:09:46,023 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:47,166 - mylib.code_logging - DEBUG - < 250 Ok: queued as 
+2019-11-28 15:09:47,166 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:47,166 - mylib.code_logging - DEBUG - QUIT
+2019-11-28 15:09:47,206 - mylib.code_logging - DEBUG - < 221 Bye.
+2019-11-28 15:09:47,207 - mylib.code_logging - DEBUG - < 
+2019-11-28 15:09:47,207 - mylib.code_logging - INFO - 914081010@qq.com 250 Ok: queued as 

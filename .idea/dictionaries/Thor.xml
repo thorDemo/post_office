@@ -5,8 +5,10 @@
       <w>dkim</w>
       <w>ehlo</w>
       <w>helo</w>
+      <w>maxline</w>
       <w>nohup</w>
       <w>rsaky</w>
+      <w>smtp</w>
       <w>sohu</w>
     </words>
   </dictionary>

@@ -28,3 +28,4 @@ class Logger(object):
     def get_log(self):
         return self.__logger
 
+
